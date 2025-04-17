@@ -1165,7 +1165,7 @@ export const ui: Registry["items"] = [
     type: "registry:ui",
     title: "Theme Toggler",
     description: "A component for theme changing animation.",
-    dependencies:['lucide-react'],
+    dependencies: ["lucide-react"],
     files: [
       {
         path: "registry/magicui/animated-theme-toggler.tsx",
@@ -1173,11 +1173,11 @@ export const ui: Registry["items"] = [
         target: "components/magicui/animated-theme-toggler.tsx",
       },
     ],
-    css:{
+    css: {
       "::view-transition-old(root), ::view-transition-new(root)": {
         animation: "none",
         "mix-blend-mode": "normal",
       },
-    }
+    },
   },
 ];
